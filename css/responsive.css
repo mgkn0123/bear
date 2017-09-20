@@ -1,0 +1,241 @@
+/*------------------------------------RESPONSIVE------------------*/
+@media screen and (max-width:1300px){
+      .podstrona{ width:98%; }
+}
+@media screen and (max-width:1100px){
+    .main-box{ width:98%; }
+    .main-box h1{ margin-top: 5px; }
+    .button-wiecej { font-size: 1.4em; }
+    article { height:137px;  }
+}
+
+@media screen and (max-width:900px){
+    
+    .aside-box{
+        width:565px;
+        height:315px;
+        margin:0 auto;
+    }
+    aside{ 
+        width:100%; 
+        background-color: #CCC5B9;
+        border-top: 2px solid #2f2f2f;
+        clear:both;  
+    }
+    .aside-content{
+        float: left;
+        width:270px;
+        margin-right: 1%;
+        padding-bottom: 0;
+    }
+    .logo{
+        width: 370px;
+        height: 60px;
+      
+    }
+    .logo span a{
+        font-size:2.5em;  line-height: 60px;
+    }
+    .main-box h1{
+        font-size:1.6em;
+    }
+    #contener{
+        width:100%;
+        margin:0 auto;
+    }
+    main{
+       margin:0 auto;   
+    }
+    .main-box{
+        clear:both;
+        width:98%;
+    }
+    article { height:137px;  }
+    
+}
+
+
+@media screen and (max-width:720px){
+ header{
+      width:100%;
+      position: fixed;
+      right: 0;
+      top: 0;  
+      margin:0;
+      background-color: #192112;
+      border-bottom:2px solid  gray;
+      z-index: 100;
+    }
+
+  .menu-button{
+       display: block;
+    }
+     
+    nav{
+        margin-top:2%;
+      
+    }
+    .wrapper{
+    margin-top:75px;
+    
+    }
+    
+    .logo{
+        background: none;
+        margin-left: 2%;
+        width:240px;
+        height:50px;
+    }
+    .logo span a{
+        font-size:2.0em;
+        margin:0;
+        padding:10px;
+    }
+    .menu {
+        display:none; 
+        height:175px;
+        margin:0;
+    }
+    nav ul li, nav ul {
+        width:100%;
+    }
+    nav ul li{
+        border-bottom: 1px solid #FFFAF0; 
+    }
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+   
+    footer{
+        height:75px;
+    } 
+    .aside-box{
+        width:270px;
+        margin:0 auto;
+        height:620px;
+    }
+    aside h1{
+        margin:0;
+        text-align:center;
+        font-size: 1em;
+    }
+    .aside-content{
+        float:clear;
+    }
+    footer{
+        font-size: 0.8em; 
+    }
+    .stopka{
+        margin:0 auto;
+        width:370px; 
+    }
+    .footer-left{
+        margin-top:4%;
+        width:145px; 
+    }
+     .social li:first-child{
+        display:none;
+    }
+    .footer-right{
+        margin-top: 3%;
+        width:145px;
+    }
+    article { height:136px;  }
+    
+    .podstrona h2{ font-weight: bold;}
+}
+
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 230px;
+        height: 50px;
+        line-height: 40px;
+    }
+    .logo span a{
+        font-size:1.7em;
+    } 
+}
+
+@media screen and (max-width:450px){
+    .logo{
+        width: 170px;
+        height: 50px;
+        line-height: 40px;
+    }
+    .logo span a{
+        font-size:1.2em;
+       padding:18px;
+    }
+    article {
+        font-size: 1.1em;
+        
+    }
+    .main-box h1{
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #59594F;
+    }
+      article { 
+          height:116px;  
+    }
+     
+}
+
+@media screen and (max-width:390px){
+    footer{ 
+        height:100px;
+        padding:10px;
+    }
+    
+    .stopka{ 
+        width:155px;
+    }
+    .footer-left{
+        text-align: center;
+    }
+    .stopka ul{
+        width:135px;
+        padding-left:0;
+        padding-top:3%;
+        margin:0 auto;
+    }
+   
+    .logo span a{
+        font-size: 1.2em;
+    }
+    .button-wiecej{
+        font-size: 1.3em;
+        padding:8px;  
+    }
+
+    
+}
+
+
+
+
+
+
+
+@media print { 
+    *{
+        background-color: #FFFFFF; 
+        color: #000000;  
+        font-size:13px;
+    }
+    header, footer, nav, aside { display: none; }
+    .wrapper, #contener, main, article, .main-box{
+        width:100%; 
+        min-width:100%; 
+        border:none;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+

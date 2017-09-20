@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+img{
+    max-width: 100%;
+    display:block;
+    z-index: 0;
+}
+*{ /*selektor uniwersalny*/
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	margin:0 auto;
+    background-color: #FFFAF0;
+	  
+}
+header{
+ 	 margin-top:1%;  
+}
+.logo{
+    background: URL('../img/logo.png') top left no-repeat;
+    width:525px;
+    display:block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+.logo span a {
+    color: #697729;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    width:100%;
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 20%;    
+}
+/*------------------------------------------------ MENU ----------------------*/
+nav {
+	background-color: #192112;
+    width:100%;
+    
+}
+nav ul, nav ul.visible {
+	height:45px;
+    max-width: 660px;
+    margin:0 auto;
+   	padding:0;
+}
+nav ul li {
+    float:left; 
+	list-style:none;
+	display:block;    
+}
+nav ul li a{
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    color:#CCC5B9;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 25px; 
+    padding-right: 25px;
+}
+nav ul li a:hover{
+    background-color: #697729;
+    color:#FFFAF0;
+}
+.menu-button{
+    width:30px; 
+    height:30px;
+    background: URL('../img/menu_white.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+       position:absolute;
+        top:15px;
+        right:15px;
+    display:none;    
+}
+
+/*-------------------------------------------------ASIDE---------------------*/
+aside{
+    width:20%;
+	float:left;
+    min-width:260px; 
+}
+.aside-content{
+	padding-top: 10px;
+    padding-bottom: 1%px;
+    margin-bottom:50px;
+}
+aside .info {
+    display: block;
+    line-height: 70px;
+    border-bottom: 1px dotted gray;
+    padding-top:10px; 
+    padding-bottom:10px; 
+}
+aside .info:last-child {
+    border:none;
+}
+aside h1{
+    margin-left:10px;
+    color:#192112;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom:3%; 
+}
+aside img{
+    width: 70px;
+    float:left;
+    border: 1px solid #697729;
+    margin-right:10px;
+    margin-left:10px; 
+}
+aside span {
+    text-decoration: none;
+    font-size: 0.8em;
+    color:#192112;
+    line-height: 70px; 
+}
+aside a{
+    text-decoration: none;  
+}
+aside a:hover, aside a:active {
+    text-decoration: underline;
+    color: #697729;
+}
+.no-border{
+    border-style: none;
+}
+/*--------------------------------------------------MAIN CONTENT-----*/
+.wrapper {
+    width: 100%;
+    float:left;  
+}
+#contener{
+    float:left;
+    width:70%; 
+    margin:1% 0 2% 0;
+}
+.lewa{
+    margin-right: 3%;
+}
+.main-box{
+    width:40%;
+    float:right;
+    border-radius: 10px 10px;
+    margin:1%;
+    display:block;
+    padding:5px 5px 5% 5px;
+    font-size:0.8em;
+    border:1px solid  #CCC5B9;
+    box-shadow: 1px 1px 50px #CCC5B9;
+}
+.glowna{
+    padding-bottom:5px;
+}
+
+.glowna img, aside img:hover{
+    -webkit-filter: brightness(0.8);
+    -moz-filter: brightness(0.8);
+    -o-filter: brightness(0.8);
+    -ms-filter: brightness(0.8);
+    filter: brightness(0.8);
+}
+.glowna img:hover, aside img{
+    -webkit-filter: brightness(1);
+    -moz-filter: brightness(1);
+    -o-filter: brightness(1);
+    -ms-filter: brightness(1);
+    filter: brightness(1);
+}
+.main-box h1, .main-box h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.7em;
+    padding-bottom: 10px;
+    margin-top:1em;
+    color:#192112;   
+}
+.main-box h2{
+    font-size:1.3em;
+    margin-top: 5%
+}
+
+.podstrona article{
+display:block;
+    height: auto;
+}
+.podstrona b, .bold {
+    font-weight: bold;  
+}
+.podstrona img{
+    margin:0 auto;
+    padding:3% 0 3% 0;
+}
+.podstrona iframe {
+    width:100%;
+    height:450px;
+}
+.podstrona{
+    width:65%;
+}
+
+.podstrona h2{
+      margin-bottom:-2.6%;
+}
+.podstrona ul li{
+    list-style:square;
+    margin: 2% 0 0 5%;
+}
+.podstrona p{ margin:2% 0 2% 0; }
+.ciekawostki img{ margin-top: 5%; }
+article {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
+    color: #52564E;
+    padding-top:20px;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding:0.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    height:160px;  
+}
+.button-wiecej {
+    margin-top:5%;
+    padding:10px;
+    text-align:center;
+    margin-left:auto;
+    background-color: #192112;
+    cursor:pointer;
+    border: 1px solid #697729;
+    float:right;
+    margin:10px;
+    font-size: 1.3em;
+}
+.button-wiecej:hover {
+    background-color: #697729;
+    color:#fff;
+}
+ a .button-wiecej {
+     color:#CCC5B9;
+     text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+/*--------------------------------------------FOOTER-----------------------------------*/
+footer{
+    width:100%;
+    border-top: 3px solid #2f2f2f;
+    color:#CCC5B9;
+    font-size: 1em;
+    height:90px;
+    background: URL('../img/footer.png') top left repeat;
+}
+.stopka {height:100%;}
+.footer-left{
+    width:46%;
+    margin: 2%;
+    margin-top: 30px;
+    float: left;
+    text-align: right;  
+}
+.footer-right{
+    float: right;
+    width:46%;
+    padding-top:2%;
+    padding-bottom:1.5%; 
+}
+ul.social li{
+    float:left;
+    margin-left: 10px;
+    list-style: none;
+}
+ul.social li a{
+    display:block;
+    height: 32px; 
+    width: 32px;
+    text-indent: 100%;
+    overflow: hidden;
+    background-image: URL('../img/social.png');
+    -webkit-transition: all 10ms;
+    -moz-transition: all 10ms;
+    -ms-transition: all 10ms;
+    -o-transition: all 10ms;
+    transition: all 10ms;
+}
+
+.facebook a { background-position: 0 0; }
+.gplus a { background-position: 0 -64px; }
+.twitter a { background-position: 0 -128px; }
+.facebook a:hover { background-position: 0 -32px; }
+.gplus a:hover { background-position: 0 -96px; }
+.twitter a:hover{ background-position: 0 -160px; }
